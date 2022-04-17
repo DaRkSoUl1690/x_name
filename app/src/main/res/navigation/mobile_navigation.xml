@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vedant.x_name.Fragments.home_fragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_fragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.vedant.x_name.Fragments.search_fragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search_fragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.vedant.x_name.Fragments.message_fragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message_fragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.vedant.x_name.Fragments.profile_fragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_profile_fragment" />
+</navigation>
